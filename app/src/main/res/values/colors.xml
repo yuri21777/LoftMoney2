@@ -3,6 +3,13 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="wheite">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#313f7f</color>
+    <color name="LoftMoney2">#624c77</color>
+    <color name="lightish_blue">#624c77</color>
+    <color name="green">#777555</color>
+
+    <color name="btn_color_disabled">#EAEAEA</color>
+    <color name="btn_color_enabled">@color/colorAccent</color>
 
 </resources>

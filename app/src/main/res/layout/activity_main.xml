@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -10,7 +11,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
-        android:textColor="#e73838"
+        android:textColor="@color/lightish_blue"
+
+        android:textSize="52sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -19,16 +22,21 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Имя пользователя"
+        android:hint="@string/add_hint_name"
         android:textSize="30sp"
         android:textStyle="bold"
         android:inputType="textPassword"
-        android:textColor="#e73838"/>
+        android:textColor="@color/green"/>
 
     <Button
-        android:text="Нажми на меня"
+        android:text="@string/add_button"
         android:background="#30abdf"
         android:textColor="#ffffff"
-        android:padding="16dp"/>
+        android:padding="16dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
 
-</android.support.constraint.ConstraintLayout>
+
+        />
+
+</LinearLayout>
